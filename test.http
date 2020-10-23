@@ -1,0 +1,30 @@
+@url =  http://localhost:3000
+
+### Create a video
+POST {{url}}/videos
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=_RZ-T6TxP7w&t=3061s",
+    "title": "mern video",
+    "description": "video tutorial"
+}
+
+### Get one video
+GET {{url}}/videos/5f92598502271974a04517f5
+
+### Get all videos
+GET {{url}}/videos
+
+
+### Delete a video
+DELETE  {{url}}/videos/5f924cb47cc2a665cf6fed2f
+
+### Update a video
+PUT {{url}}/videos/sasa
+Content-Type: application/json
+
+{
+    "title": "mern Tutorial video 2",
+    "description": "video tutorial new 2"
+}
