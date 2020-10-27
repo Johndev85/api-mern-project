@@ -1,6 +1,6 @@
 import app from "./app"
 import db from "./database"
 
-app.listen(3000, () => {
-    console.log("server on 3000 port")
+app.listen(3001, () => {
+    console.log("server on 3001 port")
 })
