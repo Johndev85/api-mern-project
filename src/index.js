@@ -1,5 +1,8 @@
 import app from "./app"
+import db from "./database"
 
-app.listen(3001, () => {
-    console.log("server on 3001 port")
+const PORT = process.env.PORT || 3000
+
+app.listen(PORT, () => {
+    console.log("server started on PORT", PORT)
 })
