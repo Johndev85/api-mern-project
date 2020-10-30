@@ -1,8 +1,8 @@
 # API REST - MERN STACK PROJECT
 
-**SITE:**
+**API Deploy:**
 
-### https://api-mern-project.herokuapp.com/
+### https://api-mern-project.herokuapp.com/videos
 
 ---
 

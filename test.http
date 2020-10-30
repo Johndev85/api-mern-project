@@ -1,4 +1,4 @@
-@url =  http://localhost:3000
+@url =  https://api-mern-project.herokuapp.com
 
 ### Create a video
 POST {{url}}/videos
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ### Get one video
-GET {{url}}/videos/5f92598502271974a04517f5
+GET {{url}}/videos/5f9afd6be2f6
 
 ### Get all videos
 GET {{url}}/videos
@@ -21,7 +21,7 @@ GET {{url}}/videos
 DELETE  {{url}}/videos/5f924cb47cc2a665cf6fed2f
 
 ### Update a video
-PUT {{url}}/videos/sasa
+PUT {{url}}/videos/5f9afd6ce73cc25da3dbe2f6
 Content-Type: application/json
 
 {
